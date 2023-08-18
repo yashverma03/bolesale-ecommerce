@@ -19,8 +19,53 @@
 
 ## Installation
 
-- Download the project or use git clone.
+- To use the project on your local machine, download the project or use git clone.
 - Open terminal in the project directory and run the following commands in it.
   - `cd ./client/`
   - `npm install`
   - `npm start`
+
+
+<br>
+
+## Screenshots
+
+Home Page without auth
+
+![Home page](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/f4a76b75-e6d4-4bd4-8494-e270aa03efc5)
+
+<br>
+
+Home Page with auth
+
+![Home Page](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/fc1a3e19-4376-4f7f-a577-7479d8c89e55)
+
+<br>
+
+Cart page
+
+![cart](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/d28a6d22-64e5-4779-9895-469c9fe80b7d)
+
+<br>
+
+Authentication
+
+![auth](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/900bc220-dbc4-4de2-920b-b0b42846693b)
+
+<br>
+
+Firestore Database
+
+![firestore](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/f77bca65-c32f-46c2-b32f-8f93a55b0f54)
+
+<br>
+
+Storage
+
+![storage](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/44ca49e1-e262-4069-94e5-074fe3d7719f)
+
+<br>
+
+Hosting
+
+![hosting](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/8c794226-6988-44ad-8672-ade3604085dc)
