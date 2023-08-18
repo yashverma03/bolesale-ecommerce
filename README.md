@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+**Deployed link**- https://bolesale-ecommerce.firebaseapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+- This is a basic ecommerce web app in which users can see listed products by the ecommerce website.
+- Users can signup and login using email id and password. The authentication is managed by Firebase Auth.
+- After signing up, user data is saved in Firestore Database.
+- The products are also stored in Firestore Database, whereas the image of the products is stored in Firebase Storage.
+- Only authenticated user can add items to cart, the total number of unique items is displayed on cart icon.
+- After clicking on the cart icon, the authenticated user can see his cart. The user may increase, decrease or remove any item.
+- Cart summary with total number of products and total cost is also shown.
+- Frontend is created with React.js. For CSS, Bootstrap is used.
+- The project is deployed using Firebase Hosting.
+- Future work may include complete payment integration, different types of filters, product details page.
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- To use the project on your local machine, download the project or use git clone.
+- Open terminal in the project directory and run the following commands in it.
+  - `cd ./client/`
+  - `npm install`
+  - `npm start`
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Home Page without auth
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Home page](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/f4a76b75-e6d4-4bd4-8494-e270aa03efc5)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+Home Page with auth
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Home Page](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/fc1a3e19-4376-4f7f-a577-7479d8c89e55)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Cart page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![cart](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/d28a6d22-64e5-4779-9895-469c9fe80b7d)
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Authentication
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![auth](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/900bc220-dbc4-4de2-920b-b0b42846693b)
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Firestore Database
 
-### Analyzing the Bundle Size
+![firestore](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/f77bca65-c32f-46c2-b32f-8f93a55b0f54)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+Storage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![storage](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/44ca49e1-e262-4069-94e5-074fe3d7719f)
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Hosting
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![hosting](https://github.com/yashverma03/bolesale-ecommerce/assets/94443269/8c794226-6988-44ad-8672-ade3604085dc)
